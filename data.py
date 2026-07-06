@@ -1,4 +1,4 @@
-# data.py
+# data
 songs = [
     {"title": "Blinding Lights", "artist": "The Weeknd", "genres": "Pop Synthwave", "mood": "energetic upbeat night"},
     {"title": "Levitating", "artist": "Dua Lipa", "genres": "Pop Dance Disco", "mood": "happy energetic fun"},
