@@ -1,4 +1,4 @@
-import math   # ⭐ YOU MISSED THIS
+import math   
 
 # DOT PRODUCT
 def dot_product(a, b):
@@ -8,7 +8,7 @@ def dot_product(a, b):
     return result
 
 
-# MAGNITUDE (vector length)
+# MAGNITUDE 
 def magnitude(a):
     result = 0
     for i in range(len(a)):
@@ -21,7 +21,7 @@ def cosine(a, b):
     mag_a = magnitude(a)
     mag_b = magnitude(b)
 
-    # safety check to avoid division by zero
+    # safety check 
     if mag_a == 0 or mag_b == 0:
         return 0
 
