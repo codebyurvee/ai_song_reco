@@ -1,5 +1,5 @@
 from data import songs
-
+#sorting the songs and conversation to vectors 
 
 def clean_text(text):
     text = text.lower()
