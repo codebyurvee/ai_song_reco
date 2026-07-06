@@ -20,7 +20,7 @@ def text_to_vector(text, vocabulary):
     words = clean_text(text)
     vector = [0] * len(vocabulary)
     for word in words:
-        if word in vocabulary:  # safety
+        if word in vocabulary: 
             index = vocabulary.index(word)
             vector[index] += 1
     return vector
@@ -56,6 +56,4 @@ def recommend_by_song(song_index, top_n=3):
         print(f"{songs[idx]['title']} - {songs[idx]['artist']}")
         print(f"Similarity: {score:.2f}\n")
 
-
-# Call it
-recommend_by_song(1, top_n=5)  # Levitating ke similar songs
+recommend_by_song(1, top_n=5)  
